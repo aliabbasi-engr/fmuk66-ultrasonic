@@ -10,10 +10,10 @@
  * Definitions
  ******************************************************************************/
 #define ULTRASONIC_TRIGGER_GPIO     GPIOD
-#define ULTRASONIC_TRIGGER_GPIO_PIN 4
+#define ULTRASONIC_TRIGGER_GPIO_PIN 0
 
-#define ULTRASONIC_ECHO_GPIO     	GPIOD
-#define ULTRASONIC_ECHO_GPIO_PIN 	5
+#define ULTRASONIC_ECHO_GPIO     	GPIOA
+#define ULTRASONIC_ECHO_GPIO_PIN 	10
 
 #define ULTRASONIC_ECHO_VALUE		1U
 

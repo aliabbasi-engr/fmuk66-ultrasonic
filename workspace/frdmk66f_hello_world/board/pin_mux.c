@@ -60,15 +60,25 @@ BOARD_InitPins:
  * END ****************************************************************************************************************/
 void BOARD_InitPins(void)
 {
+//	/* Port D Clock Gate Control: Clock enabled */
+//    CLOCK_EnableClock(kCLOCK_PortD);
+//
+//    /* PORTD4 is configured as GPIO for ultrasonic trigger*/
+//    PORT_SetPinMux(PORTD, 4U, kPORT_MuxAsGpio);
+//
+//    /* PORTD5 is configured as GPIO for ultrasonic echo*/
+//    PORT_SetPinMux(PORTD, 5U, kPORT_MuxAsGpio);
+
 	/* Port D Clock Gate Control: Clock enabled */
     CLOCK_EnableClock(kCLOCK_PortD);
+	/* Port A Clock Gate Control: Clock enabled */
+    CLOCK_EnableClock(kCLOCK_PortA);
 
-    /* PORTD4 is configured as GPIO for ultrasonic trigger*/
-    PORT_SetPinMux(PORTD, 4U, kPORT_MuxAsGpio);
+    /* PORTD0 is configured as GPIO for ultrasonic trigger*/
+    PORT_SetPinMux(PORTD, 0U, kPORT_MuxAsGpio);
 
-    /* PORTD5 is configured as GPIO for ultrasonic echo*/
-    PORT_SetPinMux(PORTD, 5U, kPORT_MuxAsGpio);
-
+    /* PORTA10 is configured as GPIO for ultrasonic echo*/
+    PORT_SetPinMux(PORTA, 10U, kPORT_MuxAsGpio);
 }
 /***********************************************************************************************************************
  * EOF
