@@ -1,3 +1,14 @@
+//////////////////////////////////////////////////////////////////////////////////
+// Company: McMaster University
+// Engineer: Ali Abbasi
+//
+// Create Date: 04/24/2023 09:48:25 PM
+// Design Name: fmuk66_ultrasonic_baremetal
+// Target Devices: NXP RDDRONE-FMUK66
+// Description: This program calculates the distance using the ultrasonic module
+// connected to the "ULTRASND SENS" JST-GH pin header on NXP RDDRONE-FMUK66
+//////////////////////////////////////////////////////////////////////////////////
+
 #include "pin_mux.h"
 #include "clock_config.h"
 #include "board.h"
