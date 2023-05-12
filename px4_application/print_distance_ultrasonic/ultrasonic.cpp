@@ -1,3 +1,14 @@
+//////////////////////////////////////////////////////////////////////////////////
+// Company: McMaster University
+// Engineer: Ali Abbasi
+//
+// Create Date: 04/29/2023 10:21:03 AM
+// Design Name: fmuk66_ultrasonic_px4
+// Target Devices: NXP RDDRONE-FMUK66
+// Description: This px4 application prints the distance received from the ultrasonic
+// module connected to the autopilot
+//////////////////////////////////////////////////////////////////////////////////
+
 #include <px4_platform_common/px4_config.h>
 #include <px4_platform_common/log.h>
 
