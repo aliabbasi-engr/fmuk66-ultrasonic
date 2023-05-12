@@ -1,5 +1,0 @@
-menuconfig EXAMPLES_DRIVE_MOTORS_RC
-	bool "drive_motors_rc"
-	default n
-	---help---
-		Enable support for drive_motors_rc

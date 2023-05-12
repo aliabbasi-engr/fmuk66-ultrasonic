@@ -1,0 +1,5 @@
+menuconfig EXAMPLES_PRINT_DISTANCE_ULTRASONIC
+	bool "print_distance_ultrasonic"
+	default n
+	---help---
+		Enable support for print_distance_ultrasonic
