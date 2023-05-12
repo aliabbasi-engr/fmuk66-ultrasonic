@@ -69,3 +69,6 @@ workspace/frdmk66f_hello_world/.cproject
 *.resources
 *.prefs
 *.prefs
+*.snap
+*.resources
+*.snap
