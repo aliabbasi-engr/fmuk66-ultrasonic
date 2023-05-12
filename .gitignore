@@ -64,3 +64,8 @@ workspace/.metadata/
 workspace/frdmk66f_hello_world/.cproject
 *.axf
 *.launch
+*.snap
+*.snap
+*.resources
+*.prefs
+*.prefs
